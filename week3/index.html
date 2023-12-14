@@ -44,8 +44,21 @@
 		These are the things I'm working towards every day.
 		</p></div>
 		
+	<!-- Button -->	
+		<button onclick="myFunction()">Hide TMI</button>
+		
 	<!-- Contact Me -->
 		<h3 style="text-align:center;"> Facebook <br> Instagram <br> </h3>
-		
+	
+
+	<!-- Button Function -->
+	<script>
+	function myFunction() {
+	  var x = document.getElementsByClassName("city");
+	  for (var i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	  }
+	}
+</script>
     </body>
 </html>
