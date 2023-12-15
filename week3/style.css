@@ -1,13 +1,15 @@
 h1 {
 	color: black;
 	font-family: Arial, bold;
-	font-size: 400%;
+	font-size:60px
 }
+/* Cursive font*/
 h2 {
 	color: black;
 	font-family: 'Brush Script MT', cursive;
-    font-size: 300%;
+    font-size: 60px;
 	
+
 p {
 	color:black;
 	font-family: Georgia, serif;
