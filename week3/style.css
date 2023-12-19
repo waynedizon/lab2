@@ -1,7 +1,9 @@
 h1 {
 	color: white;
 	font-family: Arial;
-	font-size:20px
+	font-size:20px;
+	background-image: url("resources/images/headingclouds.png");
+
 }
 /* Cursive font*/
 h2 {
