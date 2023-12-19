@@ -1,7 +1,7 @@
 h1 {
-	color: black;
-	font-family: Arial, bold;
-	font-size:60px
+	color: white;
+	font-family: Arial;
+	font-size:20px
 }
 /* Cursive font*/
 h2 {
@@ -15,4 +15,5 @@ p {
 	font-family: Georgia, serif;
 	font-size: 160%;
 }
+
 
