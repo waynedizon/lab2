@@ -37,9 +37,6 @@
 	  margin-left: auto;
 	  margin-right: auto;
 	}
-	h1 {
-		z-index:3;
-	}
 	
 	ul {
 		list-style-type: none;
@@ -48,10 +45,12 @@
 		margin-left: 11%;
 		padding: 0;
 		overflow: hidden;
+		z-index: 4;
 	}
 
 	li {
 	  float: left;
+	  z-index: 4;
 	}
 
 	li a {
@@ -60,10 +59,12 @@
 	  text-align: center;
 	  padding: 14px 16px;
 	  text-decoration: none;
+	  z-index: 4;	  
 	}
 
 	li a:hover:not(.active) {
 	  color: #111;
+	  z-index: 4;
 	}
 	
 	body {
@@ -78,14 +79,13 @@
 
     <body>
 	
-	<h1>
 	<ul>
 	  <li style="float:right"><a href="#contact">Portfolio</a></li>
 	  <li style="float:right"><a href="#mystory">My Story</a></li>
 	  <li style="float:right"><a href="#home">Home</a></li>
 	  <li><a href="#home">WanderWithWayne.com</a></li>
 	</ul>
-	</h1>
+
 	
 	<img src="resources/images/headingclouds.png" id="header">
 	<img src="resources/images/collage.png" id="collage">
