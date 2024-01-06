@@ -6,6 +6,7 @@ h1 {
 	padding-right: 30px;
 	padding-bottom: 50px;
 	padding-left: 500px;
+	z-index: 3;
 
 
 }
@@ -21,4 +22,7 @@ p {
 	font-family: Georgia, serif;
 	font-size: 160%;
 }
+
+
+	
 
