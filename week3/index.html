@@ -46,38 +46,42 @@
 	  margin-right: auto;
 	}
 	
+	#navbar {
+		position: relative;
+		z-index: 5;	
+	}
 
-	
 	ul {
-		list-style-type: none;
-		margin-top: 8%;
-		margin-right: 11%;
-		margin-left: 11%;
-		padding: 0;
-		overflow: hidden;
-		
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
 	}
 
 	li {
-		float: left;
-		position: absoulte;
-	
+	  float: left;
 	}
 
 	li a {
 	  display: block;
-	  color: #FF7A9C;;
+	  color: black;
+	  font-family: Arial;
+	  font-weight: normal;
+      font-size: 14px;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  margin-top: 75px;
 	  text-align: center;
 	  padding: 14px 16px;
 	  text-decoration: none;
-		position: absoulte;
-	  
 	}
 
 	li a:hover:not(.active) {
-	  color: #111;
-		position: absoulte;
-	
+	  color: white;
+	}
+
+	.active {
+	  color:black;
 	}
 	
 	body {
@@ -91,12 +95,12 @@
 
     <body>
 	
-	<div>
+	<div id="navbar">
 	<ul>
-	  <li style="float:right"><a href="#contact">Portfolio</a></li>
+	  <li style="float:right"><a href="#portfolio">Portfolio</a></li>
 	  <li style="float:right"><a href="#mystory">My Story</a></li>
 	  <li style="float:right"><a href="#home">Home</a></li>
-	  <li><a href="#home">WanderWithWayne.com</a></li>
+	  <li><a class="active" href="#www">WanderWithWayne.com</a></li>
 	</ul>
 	</div>
 	
