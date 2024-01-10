@@ -10,13 +10,18 @@ h1 {
 
 
 }
-/* Cursive font*/
-h2 {
-	color: black;
-	font-family: 'Brush Script MT', cursive;
-    font-size: 60px;
-	margin-top: 14%;
 
+h2 {
+	color: white;
+	font-family: Arial;
+	font-weight: normal;
+    font-size: 16px;
+	text-align: center;
+	letter-spacing: 2px;
+	top: 425px;
+	right: 520px;
+	position: absolute;
+	z-index: 4;
 
 p {
 	color:black;
