@@ -57,3 +57,143 @@ h4 {
 	z-index: 4;
 }
 
+#header {
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		top: 0px;
+	}
+
+	#collage {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		top: 0px;
+	}
+	
+	#tagline {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 45px;
+		right: 90px;
+	}
+	
+	#footer {
+		position: relative;
+		z-index:2;
+		width: 100%;
+		top: 180px;
+	}
+	
+	#facebook {
+		display: flex;
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		border-radius: 4px;
+		top: 1050px;
+		left: 485px;
+		width: 25px;
+	}
+	
+	#linkedin {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 1041px;
+		left: 510px;
+		width: 43px;	
+	}
+	
+	#heartfoot {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 995px;
+		left: 730px;
+		width: 70px;
+	}
+	
+	#instagram {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 868px;
+		right: 525px;
+		width: 35px;
+	}
+	
+	.city {
+	  background-color: #f894ae;
+	  color: black;
+	  padding-top: 2px;
+	  padding-right: 2px;
+	  padding-bottom: 2px;
+	  padding-left: 2px;
+	}
+	.note {
+	  color: DeepPink;
+	}
+	
+	.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	#navbar {
+		position: relative;
+		z-index: 5;	
+	}
+
+	
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: #FF7A9C;
+	  font-family: Arial;
+	  font-weight: 550;
+      font-size: 14px;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  margin-top: 85px;
+	  text-align: center;
+	  padding: 14px 5px;
+	  text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+	  color: white;
+	}
+
+	.active {
+	  color:#FF7A9C;
+	  margin-left: 200px;
+	}
+	
+	.navi {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	
+	.navi1 {
+		margin-right: 150px;
+	}
+	
+	body {
+		background-color: #FF7A9C;
+	    margin: 0px;
+		padding: 0px;
+	}
