@@ -22,6 +22,7 @@ h2 {
 	right: 520px;
 	position: absolute;
 	z-index: 4;
+}
 
 p {
 	color:black;
@@ -29,6 +30,30 @@ p {
 	font-size: 160%;
 }
 
-
+h3 {
+	color: #FF7A9C;
+	font-family: Arial;
+	font-weight: normal;
+    font-size: 16px;
+	text-align: left;
+	letter-spacing: 2px;
+	top: 985px;
+	left: 485px;
+	position: absolute;
+	z-index: 4;
+}
 	
+h4 {
+	color: #FF7A9C;
+	font-family: Arial;
+	font-weight: 550;
+    font-size: 16px;
+	text-align: left;
+	letter-spacing: 2px;
+	line-height: 2.0;
+	top: 955px;
+	right: 510px;
+	position: absolute;
+	z-index: 4;
+}
 
