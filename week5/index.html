@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My Website</title>
+		  <link rel="stylesheet" href="style.css">
+		  <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
+	<style>
+	
+	#header {
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		top: 0px;
+	}
+
+	#collage {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		top: 0px;
+	}
+	
+	#tagline {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 45px;
+		right: 90px;
+	}
+	
+	.city {
+	  background-color: #f894ae;
+	  color: black;
+	  padding-top: 2px;
+	  padding-right: 2px;
+	  padding-bottom: 2px;
+	  padding-left: 2px;
+	}
+	.note {
+	  color: DeepPink;
+	}
+	
+	.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	#navbar {
+		position: relative;
+		z-index: 5;	
+	}
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: #FF7A9C;
+	  font-family: Arial;
+	  font-weight: 550;
+      font-size: 14px;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  margin-top: 85px;
+	  text-align: center;
+	  padding: 14px 5px;
+	  text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+	  color: white;
+	}
+
+	.active {
+	  color:#FF7A9C;
+	  margin-left: 200px;
+	}
+	
+	.navi {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	
+	.navi1 {
+		margin-right: 150px;
+	}
+	
+	
+	
+	body {
+		background-color: #FF7A9C;
+	    margin: 0px;
+		padding: 0px;
+	}
+
+	</style>
+    </head>
+
+    <body>
+	
+	<div id="navbar">
+	<ul>
+	  <li style="float:right"><a class="navi, navi1" href="#portfolio">Portfolio</a></li>
+	  <li style="float:right"><a class="navi" href="#mystory">My Story</a></li>
+	  <li style="float:right"><a class="navi" href="#home">Home</a></li>
+	  <li><a class="active" href="#www">WanderWithWayne.com</a></li>
+	</ul>
+	</div>
+	
+	<img src="resources/images/headingclouds.png" id="header">
+	<img src="resources/images/collage.png" id="collage">
+	<img src="resources/images/tagline.png" id="tagline">
+	
+
+	
+    
+
+		<h2>Hi there! I enjoy capturing memories to cherish later, <br> and I encourage you to do the same.</h2>
+		<!--
+		<p style="text-align:center;"> My name is <strong><span class="note">Wayne Denise Dizon</span></strong>, but I go by Wayne. <br>
+		I'm 19 years old and was born on March 21, 2004. <br>
+		I graduated from <span class="note"><em>Makati Science High School</em></span>, located in Makati City. <br>
+		Currently, I'm furthering my education by pursuing a <strong><span class="note"><abbr title="Bachelor of Science in Information Technology">BSIT</abbr></span></strong>, <br>
+		specializing in Mobile and Internet Technology. <br>
+		This field ignites my passion as I'm eager to establish myself in the dynamic realm of technology.<br>
+		</p>
+		-->
+		
+
+		
+	<!-- Button -->	
+		<!--button onclick="myFunction()">Hide TMI</button-->
+		
+	<!-- Contact Me -->
+		<!--<h3 style="text-align:center;"> Facebook <br> Instagram <br> </h3>
+	
+
+	<!-- Button Function -->
+	<script>
+	function myFunction() {
+	  var x = document.getElementsByClassName("city");
+	  for (var i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	  }
+	}
+	<script>
+    </body>
+</html>

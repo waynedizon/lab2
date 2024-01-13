@@ -1,0 +1,34 @@
+h1 {
+	color: #D85375;
+	font-family: Arial;
+	font-size:20px;
+	padding-top: 200px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 500px;
+
+
+
+}
+
+h2 {
+	color: white;
+	font-family: Arial;
+	font-weight: normal;
+    font-size: 16px;
+	text-align: center;
+	letter-spacing: 2px;
+	top: 425px;
+	right: 520px;
+	position: absolute;
+	z-index: 4;
+
+p {
+	color:black;
+	font-family: Georgia, serif;
+	font-size: 160%;
+}
+
+
+	
+
