@@ -88,6 +88,15 @@ h4 {
 		z-index:2;
 		width: 100%;
 		top: 180px;
+
+	}
+	
+	#footer1 {
+		position: relative;
+		z-index:2;
+		width: 100%;
+		top: 1450px;
+
 	}
 	
 	#facebook {
@@ -101,11 +110,31 @@ h4 {
 		width: 25px;
 	}
 	
+	#facebook1 {
+		display: flex;
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		border-radius: 4px;
+		top: 2321px;
+		left: 485px;
+		width: 25px;
+	}
+	
 	#linkedin {
 		position: absolute;
 		z-index: 2;
 		width: 1280px;
 		top: 1041px;
+		left: 510px;
+		width: 43px;	
+	}
+	
+	#linkedin1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2312px;
 		left: 510px;
 		width: 43px;	
 	}
@@ -119,6 +148,15 @@ h4 {
 		width: 70px;
 	}
 	
+	#heartfoot1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2264px;
+		left: 730px;
+		width: 70px;
+	}
+	
 	#instagram {
 		position: absolute;
 		z-index: 2;
@@ -126,6 +164,42 @@ h4 {
 		top: 868px;
 		right: 525px;
 		width: 35px;
+	}
+	
+	#instagram1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2137px;
+		right: 525px;
+		width: 35px;
+	}
+	
+	#textfooter {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		top: 2255px;
+		left: 485px;
+		position: absolute;
+		z-index: 4;	
+	}
+	
+	#textfooter2 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		line-height: 2.0;
+		top: 2230px;
+		right: 510px;
+		position: absolute;
+		z-index: 4;	
 	}
 	
 	.city {
