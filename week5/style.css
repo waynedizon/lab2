@@ -24,11 +24,7 @@ h2 {
 	z-index: 4;
 }
 
-p {
-	color:black;
-	font-family: Georgia, serif;
-	font-size: 160%;
-}
+
 
 h3 {
 	color: #FF7A9C;
@@ -57,7 +53,7 @@ h4 {
 	z-index: 4;
 }
 
-#header {
+	#header {
 		position: absolute;
 		z-index: 2;
 		width: 100%;
@@ -77,6 +73,14 @@ h4 {
 		width: 1280px;
 		top: 45px;
 		right: 90px;
+	}
+	
+	#heythere {
+		position: absolute;
+		z-index:2;
+		width: 1080px;
+		top: 780px;	
+		left: 230px;
 	}
 	
 	#footer {
@@ -196,4 +200,119 @@ h4 {
 		background-color: #FF7A9C;
 	    margin: 0px;
 		padding: 0px;
+	}
+	
+	#storytag {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 2px;
+		top: 470px;
+		right: 620px;
+		position: absolute;
+		z-index: 4;	
+	}
+	
+	#story1 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: center;
+		text-justify: inter-character;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1000px;
+		left: 310px;
+		position: absolute;
+		z-index: 5;		
+		
+	}
+	
+	#funfact {
+		position: absolute;
+		z-index:2;
+		width: 1080px;
+		top: 1150px;
+		left: 210px;
+	}
+	
+	#funfact1 {
+		position: absolute;
+		z-index:2;
+		width: 1080px;
+		top: 1480px;
+		left: 210px;
+	}
+	
+	#scholar {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1630px;
+		left: 300px;
+		position: absolute;
+		z-index: 5;	
+	}
+	
+	#big3 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1930px;
+		left: 300px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	#gamer {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1630px;
+		right: 285px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	#risk {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1810px;
+		right: 360px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	#bgc{
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1963px;
+		right: 285px;
+		position: absolute;
+		z-index: 5;			
 	}
