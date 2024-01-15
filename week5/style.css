@@ -61,8 +61,8 @@
 		text-align: left;
 		letter-spacing: 2px;
 		line-height: 2.0;
-		top: 985px;
-		right: 527px;
+		top: 984px;
+		right: 528px;
 		position: absolute;
 		z-index: 4;	
 	}
@@ -214,6 +214,20 @@
 		right: 570px;
 		position: absolute;
 		z-index: 4;	
+	}
+	
+	#mystory1 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 2.0;
+		top: 2265px;
+		right: 528px;
+		position: absolute;
+		z-index: 4;		
 	}
 	
 	.city {
@@ -403,4 +417,82 @@
 		right: 285px;
 		position: absolute;
 		z-index: 5;			
+	}
+	
+	
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		top: 1054px;
+		right: 525px;
+		position: absolute;
+		z-index: 4;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		color: #FF7A9C;
+	  
+	}
+
+	.tooltiptext {
+	  visibility: hidden;
+	  width: 300px;
+	  background-color: #ffc0d5;
+	
+	  font-family: Arial;
+	  font-weight: normal;
+	  font-size: 14px;
+	  color: #D85375;
+	  text-align: center;
+	  border-radius: 4px;
+	  padding: 8px 0;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;
+	  top: -15px;
+	  left: 105%;
+	}
+
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+	
+		.tooltip1 {
+		position: relative;
+		display: inline-block;
+		top: 2325px;
+		right: 525px;
+		position: absolute;
+		z-index: 4;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		color: #FF7A9C;
+	  
+	}
+
+	.tooltiptext1 {
+	  visibility: hidden;
+	  width: 300px;
+	  background-color: #ffc0d5;
+	  font-family: Arial;
+	  font-weight: normal;
+	  font-size: 14px;
+	  color: #D85375;
+	  text-align: center;
+	  border-radius: 4px;
+	  padding: 8px 0;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;
+	  top: -15px;
+	  left: 105%;
+	}
+
+	.tooltip1:hover .tooltiptext1 {
+	  visibility: visible;
 	}
