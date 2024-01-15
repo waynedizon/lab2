@@ -281,7 +281,8 @@
 	}
 
 	li a:hover:not(.active) {
-	  color: white;
+	  color: #D85375;
+
 	}
 
 	.active {
