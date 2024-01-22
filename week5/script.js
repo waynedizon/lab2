@@ -27,6 +27,12 @@ class Car {
 const date = new Date();
 let currentYear = date.getFullYear();
 
-const myCar = new Car("Pink Lamborghini Aventador", 2023);
+const myCar = new Car("Pink Lamborghini Aventador", 2022);
 document.getElementById("demo").innerHTML =
 "My name is Wayne, and my " + myCar.name + " is " + myCar.age(currentYear) + " years old.";
+
+setTimeout(function() { myFunction("you didn't see that!!!!!"); }, 3000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
