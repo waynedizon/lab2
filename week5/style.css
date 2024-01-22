@@ -497,3 +497,18 @@
 	.tooltip1:hover .tooltiptext1 {
 	  visibility: visible;
 	}
+	
+	/*java moving object*/
+	
+	#container {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: yellow;
+	}
+	#animate {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: red;
+	}
