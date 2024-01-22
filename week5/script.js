@@ -55,3 +55,13 @@ function moveSquare() {
   }
 }
 
+function myFunction() {
+  let text;
+  let person = prompt("Please enter your name:", "Wayne");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + "! Reach me out for more details!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
