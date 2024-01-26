@@ -9,7 +9,10 @@
     </head>
 
     <body>	
-
+		<?php
+		$txt = "W3Schools.com";
+		echo "I love " . $txt . "!";
+		?>
 		<button id="btn">Click Me!</button>
 		<p id="demo"></p>
 		<p id="demo"></p>
