@@ -23,6 +23,9 @@
 		
 		$x = true;
 		var_dump($x);
+		
+		echo $user = $_GET["user"] ?? "anonymous";
+		echo("<br>");
 		?>
 		
 		
