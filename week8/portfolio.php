@@ -20,6 +20,9 @@
 		echo "<p>" . $txt1 . "</p>";
 		echo "Study PHP at " . $txt2 . "<br>";
 		echo $x - $y;
+		
+		$x = true;
+		var_dump($x);
 		?>
 		
 		
