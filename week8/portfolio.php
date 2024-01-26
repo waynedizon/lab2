@@ -12,7 +12,18 @@
 		<?php
 		$txt = "W3Schools.com";
 		echo "I love " . $txt . "!";
+		$txt1 = "Guess my Age";
+		$txt2 = "my birth year is 2004";
+		$x = 2024;
+		$y = 2004;
+
+		echo "<p>" . $txt1 . "</p>";
+		echo "Study PHP at " . $txt2 . "<br>";
+		echo $x - $y;
 		?>
+		
+		
+		
 		<button id="btn">Click Me!</button>
 		<p id="demo"></p>
 		<p id="demo"></p>
