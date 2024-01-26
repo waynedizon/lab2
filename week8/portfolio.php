@@ -26,6 +26,14 @@
 		
 		echo $user = $_GET["user"] ?? "anonymous";
 		echo("<br>");
+		$x = 75;
+  
+		function myfunction() {
+		  global $x;
+		  echo $x;
+		}
+
+		myfunction()
 		?>
 		
 		
