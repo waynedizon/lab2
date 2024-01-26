@@ -13,8 +13,8 @@
 	<div id="navbar">
 	<ul>
 	  <li style="float:right"><a class="navi, navi1" href="portfolio.html">Portfolio</a></li>
-	  <li style="float:right"><a class="navi" href="mystory.html">My Story</a></li>
-	  <li style="float:right"><a class="navi" href="index.html">Home</a></li>
+	  <li style="float:right"><a class="navi" href="mystory.php">My Story</a></li>
+	  <li style="float:right"><a class="navi" href="index.php">Home</a></li>
 	  <li><a class="active" href="index.html">WanderWithWayne.com</a></li>
 	</ul>
 	</div>
