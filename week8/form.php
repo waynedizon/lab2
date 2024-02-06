@@ -101,10 +101,25 @@ echo $gender;
 ?>
 
 <?php
+<<<<<<< HEAD
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
+=======
+// For Xampp Localhost
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
+
+// For socitcloud
+$servername = "localhost";
+$username = "webprogmi222_sf221";
+$password = "xE*Y2nleNVvZm[!!";
+$dbname = "webprogmi222_sf221";
+
+>>>>>>> 6dda6ee718f372a339955b54f18407960fcec0b9
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -113,8 +128,13 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+<<<<<<< HEAD
 $sql = "INSERT INTO MyGuests (name, email, website, comment, gender)
 VALUES ('$name', '$email', '$website', '$comment', '$gender')";
+=======
+$sql = "INSERT INTO wddizon_myguests (name, email,website,comment,gender)
+VALUES ('$name', '$email','$website','$comment','$gender')";
+>>>>>>> 6dda6ee718f372a339955b54f18407960fcec0b9
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
@@ -125,5 +145,9 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 ?>
 
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 6dda6ee718f372a339955b54f18407960fcec0b9
 </body>
 </html>
