@@ -20,8 +20,7 @@
 	</div>
 	
 	<img src="resources/images/headingclouds.png" id="header">
-	<img src="resources/images/collage.png" id="collage">
-	<img src="resources/images/tagline.png" id="tagline">
+	<img src="resources/images/tagline1.png" id="collage">
 	<img src="resources/images/footer.png" id="footer">
 	
 	<a target="_blank" href="https://www.facebook.com/dzn.wayne">
