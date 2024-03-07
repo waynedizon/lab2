@@ -14,7 +14,7 @@
 	  <li style="float:right"><a class="navi, navi1" href="portfolio.php">Portfolio</a></li>
 	  <li style="float:right"><a class="navi" href="mystory.php">My Story</a></li>
 	  <li style="float:right"><a class="navi" href="index.php">Home</a></li>
-	  <li><a class="active" href="index.html">WanderWithWayne.com</a></li>
+	  <li><a class="active" href="index.php">WanderWithWayne.com</a></li>
 	</ul>
 	</div>
 	
